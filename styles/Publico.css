@@ -1,0 +1,95 @@
+#section_publico main {
+    display: grid;
+    height: max-content;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+#section_publico .publico_square:nth-child(1) {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+}
+
+#section_publico .publico_square:nth-child(2), .publico_square:nth-child(3) {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+#section_publico .publico_square:nth-child(4) {
+    grid-column: span 3 / span 3;
+    grid-row: span 1 / span 1;
+    position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publico_square:nth-child(4)::before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/ocean.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+.publico_square:nth-child(4) span {
+    font-size: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 1;
+
+}
+
+.publico_square {
+    border: 1px solid var(--cor-1);
+    padding: 1.5rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.publico_square h3 {
+    font-size: 1.3rem;
+    color: var(--cor-5);
+}
+
+.publico_square div span{
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--cor-3);
+    text-transform: uppercase;
+}
+
+.publico_square p {
+    text-align: justify;
+}
+
+.text-gradient {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #3b82f6, #38bdf8, #34d399, #38bdf8, #3b82f6, #38bdf8, #34d399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 8s ease-in-out infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

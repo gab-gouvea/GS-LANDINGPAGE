@@ -23,8 +23,8 @@
 }
 
 body {
-    height: 100vh;
-    background: var(--cor-2);
+    height: max-content;
+    background-image: linear-gradient(#111827, #0f172a, #020617, black);
 }
 
 #margin_auto {

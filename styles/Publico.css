@@ -1,6 +1,5 @@
 #section_publico main {
     display: grid;
-    height: max-content;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-template-rows: repeat(4, minmax(0, 1fr));
     gap: 1.5rem;
@@ -35,6 +34,7 @@
     height: 100%;
     background-image: url(../assets/ocean.jpg);
     opacity: 0.5;
+    padding: 0;
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
@@ -53,6 +53,7 @@
 .publico_square {
     border: 1px solid var(--cor-1);
     padding: 1.5rem;
+    width: 100%;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -91,5 +92,17 @@
     }
     100% {
         background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #section_publico main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 0;
+    }
+
+    .publico_square {
+        margin-top: 1rem;
     }
 }

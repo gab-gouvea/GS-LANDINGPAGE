@@ -34,14 +34,15 @@ body {
 }
 
 h2 {
-    font-size: 1.875rem;
+    font-size: 2rem;
     font-weight: 300;
     color: var(--cor-3);
     margin-bottom: 1.5rem;
 }
 
 section {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
 }
 
 #home_img {
@@ -78,4 +79,12 @@ section {
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--cor-4);
+}
+
+@media (max-width: 1300px) {
+    #margin_auto {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    
 }

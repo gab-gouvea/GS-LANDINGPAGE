@@ -1,0 +1,32 @@
+#header {
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.5rem;
+}
+
+#logo {
+    font-size: 2rem;
+    color: var(--cor-5);
+}
+
+#header_nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.nav_link:hover {
+    color: var(--cor-2);
+    background: #60a5fa;
+}

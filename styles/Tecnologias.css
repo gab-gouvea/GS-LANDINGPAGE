@@ -1,0 +1,26 @@
+.tech_features div{
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    cursor: default;
+}
+
+.card {
+    background-color: var(--cor-1);
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: var(--cor-5);
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--cor-4);
+}

@@ -1,0 +1,50 @@
+#section_objetivos h2 {
+    text-align: center;
+}
+
+#section_objetivos div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+article.objetivos_features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 30%;
+    padding: 1.5rem;
+    color: var(--cor-1);
+    text-align: center;
+    border: 1px solid var(--cor-1);
+    border-radius: 4px;
+    transition: all ease-out 0.2s;
+    cursor: default;
+}
+
+.objetivos_features:hover {
+    background-color: var(--cor-1);
+    scale: 103%;
+}
+
+.objetivos_features span {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: var(--cor-5);
+}
+
+.objetivos_features i {
+    font-size: 3rem;
+    display: block;
+    color: var(--cor-5);
+}
+
+div.row {
+    background: var(--cor-3);
+    padding: 0.08rem;
+    width: 20%;
+    margin: 0.2rem 0;
+}

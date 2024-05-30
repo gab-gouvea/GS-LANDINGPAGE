@@ -8,14 +8,19 @@
 }
 
 .card {
-    background-color: var(--cor-1);
-    padding: 0.5rem;
+    background: #1e293b28; /* Fundo semi-transparente */
     border-radius: 4px;
-    cursor: pointer;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.4rem;
+}
+
+.card h3 {
+    font-weight: 300;
 }
 
 .card:hover {
-    background-color: var(--cor-5);
+    background-color: var(--cor-1);
 }
 
 .card h3 {

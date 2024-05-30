@@ -26,7 +26,6 @@ article.objetivos_features {
 
 .objetivos_features:hover {
     background-color: var(--cor-1);
-    scale: 103%;
 }
 
 .objetivos_features span {
@@ -40,11 +39,4 @@ article.objetivos_features {
     font-size: 3rem;
     display: block;
     color: var(--cor-5);
-}
-
-div.row {
-    background: var(--cor-3);
-    padding: 0.08rem;
-    width: 20%;
-    margin: 0.2rem 0;
 }

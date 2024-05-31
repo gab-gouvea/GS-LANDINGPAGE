@@ -11,7 +11,7 @@
     color: var(--cor-5);
 }
 
-#header_nav ul {
+.nav ul {
     display: flex;
     align-items: center;
     gap: 1.5rem;

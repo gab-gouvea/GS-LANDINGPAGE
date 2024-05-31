@@ -3,7 +3,9 @@
 @import url(./Tecnologias.css);
 @import url(./Objetivos.css);
 @import url(./Publico.css);
-@import url(./beneficios.css);
+@import url(./Beneficios.css);
+@import url(./Usabilidade.css);
+@import url(./Footer.css);
 
 * {
     padding: 0;
@@ -26,7 +28,7 @@
 
 body {
     height: max-content;
-    background-image: linear-gradient(#111827, #0f172a, #020617, black);
+    background-image: linear-gradient(#111827, #0f172a, #020617, #010514);
 }
 
 #margin_auto {
@@ -42,7 +44,7 @@ h2 {
 }
 
 section {
-    margin-top: 2rem;
+    margin-top: 8rem;
     padding: 2rem 0;
 }
 

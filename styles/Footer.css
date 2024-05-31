@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0c0a09;
+    align-items: center;
+    margin-top: 8rem;
+    padding: 2.5rem 0;
+    flex-direction: column;
+}
+
+footer #socialmedia {
+    display: flex;
+    gap: 1rem;
+}
+
+footer #socialmedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 8%;
+}
+
+footer #header_nav {
+    width: 75%;
+}
+
+#copyright {
+    border: 1px solid var(--cor-1);
+    width: 75%;
+    padding: 0 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+

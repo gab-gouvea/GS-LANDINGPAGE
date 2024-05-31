@@ -1,0 +1,98 @@
+#section_usabilidade main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.numbers_hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers_hero h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--cor-5);
+    max-width: 75%;
+    margin-bottom: 1.5rem;
+}
+
+.numbers_line {
+    width: 100%;
+    padding: 1px 0;
+    background: linear-gradient(var(--cor-1), var(--cor-3), var(--cor-1));
+    margin: 2rem 0;
+}
+
+.numbers_bar {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 4px;
+    padding: 1.5rem;
+    background: url(../assets/img4.jpg);
+    background-attachment: fixed;
+}
+
+.numbers_bar article {
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+}
+
+.numbers_bar article > span {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--cor-1);
+
+}
+
+.numbers_bar article > h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--cor-2);
+}
+
+.solution_hero {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.text_usabilidade {
+    width: 40%;
+    text-align: justify;
+}
+
+.text_usabilidade h3 {
+    font-size: 1.5rem ;
+    color: var(--cor-5);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.grid_usabilidade {
+    width: 50%;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.usabilidade_feature {
+    border: 1px solid var(--cor-3);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.usabilidade_feature span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--cor-5);
+}
+
+div.grid_usabilidade:nth-child(1) {
+    grid-row: span 1 / span 1;
+}

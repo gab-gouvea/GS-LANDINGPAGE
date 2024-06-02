@@ -42,8 +42,7 @@ footer {
     width: 100%;
 }
 
-.nav ul{
+footer .nav ul{
     display: flex;
     justify-content: center;
 }
-

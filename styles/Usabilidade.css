@@ -28,7 +28,7 @@
 .numbers_bar {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-radius: 4px;
     padding: 1.5rem;
     background: url(../assets/img4.jpg);
@@ -44,13 +44,16 @@
 .numbers_bar article > span {
     font-size: 3rem;
     font-weight: 500;
-    color: var(--cor-1);
+    color: transparent;
+    background-image: url(../assets/img4.jpg);
+    background-clip: text;
+    background-attachment: fixed;
 
 }
 
 .numbers_bar article > h3 {
-    font-size: 1.5rem;
-    font-weight: 200;
+    font-size: 1.3rem;
+    font-weight: 300;
     color: var(--cor-2);
 }
 
@@ -91,6 +94,16 @@
     font-weight: 500;
     font-size: 1.2rem;
     color: var(--cor-5);
+}
+
+.usabilidade_feature p {
+    font-size: 0.875rem;
+}
+
+.usabilidade_feature:nth-child(4) {
+    background-image: url(../assets/img5.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 div.grid_usabilidade:nth-child(1) {

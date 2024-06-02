@@ -46,3 +46,11 @@
 .problematica_features p{
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    #section_problematica main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

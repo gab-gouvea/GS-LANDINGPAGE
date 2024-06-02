@@ -96,8 +96,13 @@ section {
 
 @media (max-width: 768px) {
 
-    html {
+    body {
         font-size: 87,5%;
+    }
+
+    section {
+        margin: 4rem 0;
+        padding: 1rem 0;
     }
 
     #margin_auto {
@@ -144,13 +149,8 @@ section {
         width: 90%;
     }
 
-}
-
-@media (max-width: 425px) {
-
-    #margin_auto {
-        margin: 0 auto;
-        max-width: 100%;
+    .usabilidade_feature:nth-child(4) {
+        display: none;
     }
 
 }

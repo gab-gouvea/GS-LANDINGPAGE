@@ -21,6 +21,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    color: #d1d5db;
 }
 
 .socialIcons a i {
@@ -43,10 +44,10 @@ footer {
     width: 100%;
 }
 
-footer .nav ul{
+footer .nav-footer ul{
     display: flex;
+    gap: 0.5rem;
     justify-content: center;
+    list-style: none;
 }
-
-
 

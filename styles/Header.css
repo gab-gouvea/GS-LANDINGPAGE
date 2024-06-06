@@ -9,9 +9,32 @@
 #logo {
     font-size: 2rem;
     color: var(--cor-5);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.nav ul {
+#logo img {
+    width: 15%;
+}
+
+#login {
+    color: black;
+    background: #60a5fa;
+    padding: 0.3 1rem;
+}
+
+#login:hover{
+    background: white;
+    transition: 0.3s;
+}
+
+nav.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header ul {
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -24,34 +47,12 @@
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     transition: all 0.5s;
+    color: #d1d5db;
 }
 
 .nav_link:hover {
     color: var(--cor-2);
     background: #60a5fa;
-}
-
-#login {
-    color: var(--cor-2);
-    background: #60a5fa;
-}
-
-#login:hover{
-    background-color: white;
-    transition: 0.3s;
-}
-
-.menu-toggle {
-    font-size: 2.5rem;
-    cursor: pointer;
-    transition: all 0.5s;
-    text-align: end;
-    display: none;
-}
-
-.menu-toggle:hover i {
-    color: var(--cor-5);
-    transition: all 0.5s;
 }
 
 @media (max-width: 1300px) {

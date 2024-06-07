@@ -10,7 +10,7 @@ buttonSubmit.addEventListener('click', () => validate())
 function validate() {
     if (email.value === user && password.value === correctPassword) {
         alert("Login válidado com sucesso.");
-        window.location.href = "/GS-LANDINGPAGE/index.html";
+        window.location.href = "/GS-LANDINGPAGE/";
     } else {
         alert("Usuário ou senha incorretos!")
     }

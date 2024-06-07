@@ -24,15 +24,29 @@
         <div id="margin_auto">
             <header id="header">
                 <span id="logo"> <img src="assets/favicon.ico" alt="">Next Wave</span>
-                <nav class="nav-header">
+                <nav class="sidebar">
                     <ul>
+                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        <li><a href="/GS-LANDINGPAGE/login.html" class="nav_link" id="login">Login</a></li>
                         <li><a href="#section_problematica" class="nav_link">Problemática</a></li>
                         <li><a href="#section_tech" class="nav_link">Tecnologias</a></li>
                         <li><a href="#section_objetivos" class="nav_link">Objetivos</a></li>
                         <li><a href="#section_publico" class="nav_link">Público Alvo</a></li>
                         <li><a href="#section_beneficios" class="nav_link">Benefícios</a></li>
                         <li><a href="#section_usabilidade" class="nav_link">Usabilidade</a></li>
-                        <li><a href="/GS-LANDINGPAGE/login.html" class="nav_link" id="login">Login</a></li>
+                       
+                    </ul>
+                </nav>
+                <nav class="nav-header">
+                    <ul>
+                        <li class="hideOnMobile"><a href="#section_problematica" class="nav_link">Problemática</a></li>
+                        <li class="hideOnMobile"><a href="#section_tech" class="nav_link">Tecnologias</a></li>
+                        <li class="hideOnMobile"><a href="#section_objetivos" class="nav_link">Objetivos</a></li>
+                        <li class="hideOnMobile"><a href="#section_publico" class="nav_link">Público Alvo</a></li>
+                        <li class="hideOnMobile"><a href="#section_beneficios" class="nav_link">Benefícios</a></li>
+                        <li class="hideOnMobile"><a href="#section_usabilidade" class="nav_link">Usabilidade</a></li>
+                        <li class="hideOnMobile"><a href="/GS-LANDINGPAGE/login.html" class="nav_link" id="login">Login</a></li>
+                        <li class="menu-button" onclick=showSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
                     </ul>
                 </nav>
             </header>

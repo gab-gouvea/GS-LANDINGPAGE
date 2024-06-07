@@ -16,6 +16,6 @@ O projeto Blue Ocean visa criar uma plataforma integrada para monitoramento da q
 
 ## Instruções de Uso
 O login e senha são respectivamente:
--globalsolution@fiap.com.br
--1234
+- globalsolution@fiap.com.br
+- 1234
 
